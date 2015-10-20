@@ -1,0 +1,349 @@
+
+@media (max-width: 700px) {
+	.hero{
+		margin-top: 10%;
+	}
+}
+@media (max-width: 700px) {
+	.blog{
+		margin-top: 10%;
+	}
+}
+@media (max-width: 700px) {
+	.profile{
+		margin-top: 10%;
+	}
+}
+
+
+
+
+/*............header.......*/
+* .row{
+ margin: 0%;
+}
+
+
+
+
+header .row {
+	background-color: #213344;
+	padding: 0% 10%;
+    
+
+}
+header i{
+	color: white;
+}
+header .logo {
+	float: left;
+
+}
+header h1 a{
+	color: #ffffff;
+	text-decoration: none;
+	font-size: 0.6em;
+	font-weight: 600;
+}
+h1{
+	margin: 0px;
+	margin-top: 3%;
+}
+
+nav{
+	float: right;
+	font-weight: 600;
+}
+ header nav a{
+	display: block;
+	color: #ffffff;
+	margin-top: 1.5%;
+} 
+nav li{
+	display: inline-block;
+}
+
+
+nav a:hover{
+   text-decoration: none;
+   
+}
+
+/*......hero......*/
+
+.hero h2{
+	font-weight: 700;
+	font-size: 4em;
+	padding-bottom: 1%;
+}
+.line{
+	border: solid white 2px;
+	width: 7%;
+    display: inline-block;
+    margin-bottom: 7px;
+}
+.hero i{
+	font-size: 28px;
+	color: #ffffff;
+	padding: 0 0.6%;
+}
+.hero p{
+	font-size: 20px;
+	padding: 1.5%;
+}
+.pt-5{
+	padding-top: 5%;
+}
+
+/*portfolio*/
+.general {
+	font-size:2.5em;
+	font-weight: 700; 
+	text-align: center;
+}
+.lines{
+ border: solid #213344 2px;
+	width: 7%;
+    display: inline-block;
+    margin-bottom: 7px;
+}
+
+.portflio .row{
+	padding:1% 10% 0;
+
+}
+.portflio i {
+	font-size: 28px;
+	color: #213344;
+	padding: 0 0.6%;
+}
+
+
+
+
+
+
+#portfolio .portfolio {
+    right: 0;
+    margin: 0 0 15px;
+}
+
+#portfolio .portfolio .portfolio-link {
+    display: block;
+    position: relative;
+    margin: 0 auto;
+    max-width: 400px;
+}
+
+#portfolio .portfolio .portfolio-link .caption {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    background: rgba(24,188,156,.9);
+}
+
+#portfolio .portfolio .portfolio-link .caption:hover {
+    opacity: 1;
+}
+
+#portfolio .portfolio .portfolio-link .caption .contenido i{
+    position: absolute;
+    top: 29%;
+    right: 33%;
+    text-align: center;
+    font-size: 100px;
+    color: #fff;
+}
+
+
+#portfolio * {
+    z-index: 2;
+}
+
+@media(min-width:767px) {
+    #portfolio .portfolio {
+        margin: 0 0 30px;
+    }
+}
+ /*about*/
+ .about i{
+	font-size: 28px;
+	color: #ffffff;
+	padding: 0 0.6%;
+}
+.about a {
+	color: #213344;
+	border: solid 2px white;
+}
+span{
+	color: #213344;
+}
+.about a:hover{
+  background-color: white;
+  color: #213344;
+}
+
+/*footer*/
+.fout span{
+	color: #18bc9c;
+}
+
+.fout i{
+	border: solid white 1px;
+	border-radius: 100%;
+	padding: 3%;
+	font-size: 25px;
+	margin-right:1%;
+}
+.fout i:hover{
+	background-color: #18bc9c;
+	color: white
+}
+.fout .row{
+	padding: 3% 15%;
+	margin-right: 0;
+}
+.fout h4{
+	padding-bottom: 3%;
+	font-weight: 600;
+}
+.black{
+	background-color: black;
+	padding: 1%;	
+}
+
+/*pagina------about---------------*/
+
+.profile {
+	padding-bottom: 1%;
+	
+}
+ .profile h2{
+	font-size: 2.8em;
+	font-weight: 700;
+}
+.profile i{
+	font-size: 28px;
+	color: #ffffff;
+	padding: 0 0.6%;
+}
+.profile p {
+	padding-top: 0.9%;
+	font-size: 20px;
+}
+/*----theme*/
+.theme p {
+	line-height: 1;
+	padding-bottom: 15%;
+	margin: 0;
+}
+.theme .row {
+	padding: 0 15%;
+}
+.theme h4{
+	font-size: 1.5em;
+	font-weight: 800;
+	margin: 0;
+}
+/*------bolg-----*/
+.blog i{
+	font-size: 28px;
+	color: white;
+	padding: 0 0.6%;
+}
+.blog  p{
+	font-size: 20px;
+	padding: 1.5%;
+}
+.code .row{
+	padding:0 18% ;
+}
+.code h3{
+	padding: 5% 2% 0;
+	color: #18bc9c;
+	font-weight: 600;
+}
+input .form-control{
+	border: none;
+
+}
+.contact i{
+	font-size: 28px;
+	color:#213344 ;
+	padding: 0 0.6%;
+}
+.btn{
+	background-color:  #18bc9c;
+	border: none;
+}
+.contact .row{
+	padding: 0 20%;
+}
+#name{
+ width: 40%;
+ padding:2%;
+ margin-bottom: 2%;
+ border: none;
+
+}
+#email{
+ width: 40%;
+ padding:2%;
+ margin-bottom: 2%;
+ border: none;
+
+}
+#phone{
+ width: 40%;
+ padding:2%;
+ margin-bottom: 2%;
+ border: none;
+
+}
+#message{
+ width: 40%;
+ padding:2%;
+ margin-bottom: 2%;
+ border: none;
+
+}
+/*utility*/
+.pd-8-4{
+	padding: 8% 0 3%;
+}
+.text-white{
+	color: #ffffff;
+}
+.bg-hero{
+	background-color: #18bc9c;
+
+}
+.pd-2{
+	padding: 2%;
+}
+.pd-5{
+	padding: 5%;
+}
+.pt-5{
+	padding-top: 5%;
+
+}
+.pb-3{
+	padding-bottom: 3%
+}
+.pb-5{
+	padding-bottom: 5%;
+}
+ .bg-black{
+  background-color: #213344;
+ }
+ .pd-1-3{
+  padding: 15% 25%;
+}
+.mg-0{
+	margin: 0%;
+}
+.pt-3{
+	padding-top: 3%;
+}
